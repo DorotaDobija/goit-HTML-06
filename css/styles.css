@@ -566,6 +566,9 @@ body {
   border-radius: 4px;
   padding-left: 16px;
 }
+.newsletter-input:focus {
+  outline: 0;
+}
 .newsletter-label {
   display: flex;
   gap: 12px;
@@ -576,4 +579,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 24px;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
 }
