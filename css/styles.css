@@ -453,6 +453,11 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 16px;
+}
+.newsletter-box {
+  padding-top: 72px;
+}
+.social-media-icons-footer {
   padding-top: 72px;
 }
 .is-hidden {
@@ -572,7 +577,7 @@ body {
 .newsletter-label {
   display: flex;
   gap: 12px;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .newsletter-button-box {
   display: flex;
@@ -667,8 +672,8 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
-  margin-left: 8px;
-  position: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
 .statute-label .statute-input {
   appearance: none;
